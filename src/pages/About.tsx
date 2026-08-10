@@ -4,7 +4,7 @@ const team = [
   {
     name: 'Priya Shah',
     role: 'Founder & Designer',
-    bio: 'Started Northbound after ten years designing for larger agencies. Loves clean grids and strong coffee.',
+    bio: 'Started Acme Ltd after ten years designing for larger agencies. Loves clean grids and strong coffee.',
   },
   {
     name: 'Marcus Lee',
@@ -43,7 +43,7 @@ function About() {
         <p className="eyebrow">About us</p>
         <h1>A small studio that cares about the details.</h1>
         <p className="lead">
-          Northbound Studio was founded in 2014 with a simple idea: independent
+          Acme Ltd was founded in 2014 with a simple idea: independent
           businesses deserve the same quality of design as the big brands,
           without the six-figure retainer.
         </p>

@@ -7,9 +7,9 @@ function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <span className="brand-mark">N</span>
+          <span className="brand-mark">A</span>
           <div>
-            <p className="footer-title">Northbound Studio</p>
+            <p className="footer-title">Acme Ltd</p>
             <p className="footer-tagline">Thoughtful web design for small teams.</p>
           </div>
         </div>
@@ -21,12 +21,12 @@ function Footer() {
         </nav>
 
         <div className="footer-meta">
-          <p>hello@northboundstudio.com</p>
+          <p>hello@acmeltd.com</p>
           <p>(207) 555-0148</p>
           <p>Portland, Maine</p>
         </div>
       </div>
-      <p className="footer-copy">&copy; {year} Northbound Studio. All rights reserved.</p>
+      <p className="footer-copy">&copy; {year} Acme Ltd. All rights reserved.</p>
     </footer>
   )
 }

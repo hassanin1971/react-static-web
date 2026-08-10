@@ -1,5 +1,3 @@
-import { useState, type FormEvent } from 'react'
-
 const faqs = [
   {
     question: 'How long does a typical project take?',
@@ -19,83 +17,21 @@ const faqs = [
 ]
 
 function Contact() {
-  const [submitted, setSubmitted] = useState(false)
-
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-    setSubmitted(true)
-  }
-
   return (
     <>
       <section className="page-header">
         <p className="eyebrow">Contact</p>
         <h1>Let's talk about your project.</h1>
         <p className="lead">
-          Fill out the form below or reach us directly, we typically reply
-          within one business day.
+          Reach out any time, we typically reply within one business day.
         </p>
       </section>
 
-      <section className="section split">
-        <div className="contact-form-wrap">
-          {submitted ? (
-            <div className="form-success">
-              <h2>Thanks for reaching out!</h2>
-              <p>
-                We've received your message and will get back to you within
-                one business day.
-              </p>
-            </div>
-          ) : (
-            <form className="contact-form" onSubmit={handleSubmit}>
-              <div className="form-row">
-                <label htmlFor="name">Name</label>
-                <input id="name" name="name" type="text" required placeholder="Jane Doe" />
-              </div>
-              <div className="form-row">
-                <label htmlFor="email">Email</label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  placeholder="jane@example.com"
-                />
-              </div>
-              <div className="form-row">
-                <label htmlFor="budget">Project budget</label>
-                <select id="budget" name="budget" defaultValue="">
-                  <option value="" disabled>
-                    Select a range
-                  </option>
-                  <option value="under-5k">Under $5,000</option>
-                  <option value="5k-10k">$5,000 - $10,000</option>
-                  <option value="10k-plus">$10,000+</option>
-                  <option value="not-sure">Not sure yet</option>
-                </select>
-              </div>
-              <div className="form-row">
-                <label htmlFor="message">Tell us about your project</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                  placeholder="What are you hoping to build?"
-                />
-              </div>
-              <button type="submit" className="button primary">
-                Send message
-              </button>
-            </form>
-          )}
-        </div>
-
-        <div className="contact-info">
+      <section className="section">
+        <div className="contact-info contact-info-centered">
           <div className="info-block">
             <h3>Email</h3>
-            <p>hello@northboundstudio.com</p>
+            <p>hello@acmeltd.com</p>
           </div>
           <div className="info-block">
             <h3>Phone</h3>

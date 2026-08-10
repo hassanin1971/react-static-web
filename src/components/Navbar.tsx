@@ -11,8 +11,8 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-inner">
         <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="brand-mark">N</span>
-          Northbound Studio
+          <span className="brand-mark">A</span>
+          Acme Ltd
         </NavLink>
 
         <button

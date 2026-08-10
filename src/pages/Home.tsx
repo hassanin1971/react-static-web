@@ -27,7 +27,7 @@ const stats = [
 const testimonials = [
   {
     quote:
-      "Northbound rebuilt our site in three weeks and our booking rate doubled the following month. They actually listened to what our customers needed.",
+      "Acme Ltd rebuilt our site in three weeks and our booking rate doubled the following month. They actually listened to what our customers needed.",
     author: 'Maria Alvarez',
     role: 'Owner, Tidewater Kitchen',
   },
